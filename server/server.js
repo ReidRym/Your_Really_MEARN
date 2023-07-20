@@ -12,10 +12,7 @@ const { default: mongoose } = require("mongoose");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/BookSearch", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+
 
 const server = new ApolloServer({
   typeDefs,
