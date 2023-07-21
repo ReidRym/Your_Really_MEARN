@@ -9,9 +9,10 @@ const { typeDefs, resolvers } = require("./Schemas");
 const db = require("./config/connection");
 const { default: mongoose } = require("mongoose");
 
+
 const PORT = process.env.PORT || 3001;
 const app = express();
-
+mongodb+srv://Ryan:Blessed5577!@somearn.asqy7f8.mongodb.net/?retryWrites=true&w=majority
 
 
 const server = new ApolloServer({
