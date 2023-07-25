@@ -6,8 +6,6 @@ https://your-so-mearn-6c3349249799.herokuapp.com/
 
 ## Description
 
--Place Heroku link here-
-
 Ladies and Gentlemen, Boys and Girls, step right up and behold the marvel of the modern web development world, "Your so MEARN!" This spectacle of an application is a testament to the power of data and user demands, the twin pillars that drive the digital circus we call the internet.
 
 My challenge,facing the danger head on, was to take this fully functioning Google Books API search engine, built with a RESTful API, and transform it into a GraphQL API built with Apollo Server. This app, a marvel of the MEARN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API, is already set up to allow users to save book searches to the back end.
