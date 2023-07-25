@@ -12,7 +12,7 @@ const { default: mongoose } = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-mongodb+srv://Ryan:Blessed5577!@somearn.asqy7f8.mongodb.net/?retryWrites=true&w=majority
+
 
 
 const server = new ApolloServer({
@@ -37,6 +37,13 @@ app.get("/", (req, res) => {
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
+
+  // mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Ryan:Blessed5577!@somearn.asqy7f8.mongodb.net/?retryWrites=true&w=majority', {
+  //   useNewUrlParser: true,
+  //   useUnifiedTopology: true,
+  //   useCreateIndex: true,
+  //   useFindAndModify: false
+  // });
 
   db.once("open", () => {
     app.listen(PORT, () => {
