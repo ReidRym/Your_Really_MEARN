@@ -1,5 +1,7 @@
 # Your Really MEARN
 
+https://your-so-mearn-6c3349249799.herokuapp.com/
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -20,7 +22,6 @@ So, step right up and see the the challenge that was faced inside the repo! The 
 * [USAGE](#usage)
 * [CREDITS](#credits)
 * [BADGES](#badges)
-* [FEATURES](#features)
 * [GITHUB](#github)
 * [EMAIL](#email)
 
@@ -57,9 +58,6 @@ And there you have it, folks! The grand spectacle of "Your so MEARN!" is at your
 ## license
 MIT
 
-
-## Features  
-Place video and images here
 
 ## GitHub
 GitHub: [ReidRym](https://github.com/ReidRym)
